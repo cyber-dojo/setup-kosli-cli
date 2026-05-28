@@ -11,6 +11,7 @@ runs:
   using: "composite"
   steps:
     - name: Setup Kosli CLI
+      if: ${{ github.ref == 'refs/heads/main' }}
       uses: kosli-dev/setup-cli-action@v5
       with:
         version: ${{ inputs.version }}
