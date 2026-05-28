@@ -1,5 +1,5 @@
 name: Setup Kosli CLI
-description: ''
+description: 'Wrapper for kosli-dev/setup-cli-action'
 
 inputs:
   version:
