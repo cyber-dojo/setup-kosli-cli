@@ -1,0 +1,17 @@
+name: Setup Kosli CLI
+description: ''
+
+inputs:
+  version:
+    description: The version of the Kosli CLI to setup
+    required: false
+    default: latest
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Kosli CLI
+      uses: kosli-dev/setup-cli-action@v5
+      with:
+        version: ${{ inputs.version }}
+
