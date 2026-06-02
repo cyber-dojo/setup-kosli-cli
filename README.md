@@ -1,8 +1,7 @@
 
 A composite workflow to setup the Kosli CLI.  
-A wrapper for `kosli-dev/setup-cli-action` allowing its version to be
-bumped here, in one place. The input.version defaults to `latest`
-
+A wrapper for `kosli-dev/setup-cli-action` allowing its version bumping in one place.  
+The input.version defaults to `latest`  
 Typical use is with other standard job setup steps:
 
 ```yml
